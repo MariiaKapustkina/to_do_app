@@ -2,7 +2,7 @@
 
 Developed a React Todo app with REST API integration. Users can add, complete, delete, and filter tasks by status. Built with TypeScript, using Bulma for styling. The project is structured with reusable components and manages state via React hooks like useState, useEffect, and useCallback.
 
-🔗 [Live Demo](https://github.com/MariiaKapustkina/to_do_app/)
+🔗 [Live Demo](https://mariiakapustkina.github.io/react_todo-app-with-api/)
 
 ## 🎨 Design Reference
 This project was implemented based on Mate Academy tasks, without a public Figma file.
@@ -26,14 +26,16 @@ yarn install
 3️⃣ Start the development server:
 npm start
 ## ✨ Features
-📥 Toggle Todo Status
+**📥 Toggle Todo Status**
 - Toggling the checkbox sends a request to update the completed status.
 - Shows a loader overlay while waiting for the response.
 - Displays an error message on API failure.
-✅ Toggle All Todos
+
+**✅ Toggle All Todos**
 - "Toggle All" checkbox updates only the todos that need changes.
 - Adds .active class if all todos are completed.
-✏️ Edit Todo Title
+
+**✏️ Edit Todo Title**
 - Double-click to edit.
 - Save on Enter or onBlur.
 - Cancel on Esc or if the title hasn't changed.
