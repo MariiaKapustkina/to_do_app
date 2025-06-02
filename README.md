@@ -2,7 +2,7 @@
 
 Developed a React Todo app with REST API integration. Users can add, complete, delete, and filter tasks by status. Built with TypeScript, using Bulma for styling. The project is structured with reusable components and manages state via React hooks like useState, useEffect, and useCallback.
 
-🔗 [Live Demo](https://github.com/MariiaKapustkina/to_do_app)
+🔗 [Live Demo](https://github.com/MariiaKapustkina/to_do_app/)
 
 ## 🎨 Design Reference
 This project was implemented based on Mate Academy tasks, without a public Figma file.
